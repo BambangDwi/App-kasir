@@ -1,0 +1,13 @@
+CRITICAL - 2022-03-05 15:07:27 --> Undefined variable: data
+#0 C:\xampp2\htdocs\resto\app\Views\pages\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 30, Array)
+#1 C:\xampp2\htdocs\resto\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\resto\system\View\View.php(226): CodeIgniter\View\View->render('pages/index', Array, true)
+#4 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#5 C:\xampp2\htdocs\resto\app\Controllers\Home.php(107): view('home/index', Array)
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Home->home()
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#11 {main}

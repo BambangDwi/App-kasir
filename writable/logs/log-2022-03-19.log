@@ -1,0 +1,31 @@
+CRITICAL - 2022-03-19 07:49:40 --> Argument 2 passed to site_url() must be of the type string or null, array given, called in C:\xampp\htdocs\resto\app\Controllers\Login.php on line 21
+#0 C:\xampp\htdocs\resto\app\Controllers\Login.php(21): site_url('Login/index', Array)
+#1 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-19 08:44:49 --> Invalid file: auth/index.php
+#0 C:\xampp\htdocs\resto\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/index.php')
+#1 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('auth/index', Array, true)
+#2 C:\xampp\htdocs\resto\app\Controllers\Login.php(29): view('auth/index', Array)
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Login->login()
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-19 08:48:06 --> Undefined variable: params
+#0 C:\xampp\htdocs\resto\app\Views\pages\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\View\View.php(226): CodeIgniter\View\View->render('pages/index', Array, true)
+#4 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#5 C:\xampp\htdocs\resto\app\Controllers\Home.php(38): view('home/index', Array)
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Home->home()
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

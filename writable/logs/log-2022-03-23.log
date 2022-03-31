@@ -1,0 +1,357 @@
+ERROR - 2022-03-23 01:04:22 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-23 01:04:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\resto\system\Database\BaseBuilder.php(1484): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 C:\xampp\htdocs\resto\app\Models\UserModel.php(56): CodeIgniter\Database\BaseBuilder->countAll()
+#3 C:\xampp\htdocs\resto\app\Controllers\Home.php(31): App\Models\UserModel->jumlahUser()
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-03-23 01:04:35 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-23 01:04:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\resto\system\Database\BaseBuilder.php(1484): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 C:\xampp\htdocs\resto\app\Models\UserModel.php(56): CodeIgniter\Database\BaseBuilder->countAll()
+#3 C:\xampp\htdocs\resto\app\Controllers\Home.php(31): App\Models\UserModel->jumlahUser()
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-23 03:13:14 --> isloggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isloggedIn')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login/logout')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('Login/logout', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-23 03:17:08 --> isloggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isloggedIn')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login/logout')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('Login/logout', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-23 03:17:09 --> isloggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isloggedIn')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login/logout')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('Login/logout', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-23 03:17:10 --> isloggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isloggedIn')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login/logout')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('Login/logout', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-23 03:17:11 --> isloggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isloggedIn')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login/logout')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('Login/logout', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-23 03:17:20 --> isloggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isloggedIn')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-23 03:17:23 --> isloggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isloggedIn')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-23 03:20:40 --> isloggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isloggedIn')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-23 03:27:23 --> isloggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isloggedIn')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-23 03:27:24 --> isloggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isloggedIn')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-23 03:27:25 --> isloggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isloggedIn')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-23 03:27:25 --> isloggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isloggedIn')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-23 03:27:26 --> isloggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isloggedIn')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-23 03:27:26 --> isloggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isloggedIn')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-23 03:27:26 --> isloggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isloggedIn')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-23 03:27:27 --> isloggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isloggedIn')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-23 03:27:27 --> isloggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isloggedIn')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-23 03:27:27 --> isloggedIn filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isloggedIn')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-23 03:44:25 --> syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or '{'
+#0 C:\xampp\htdocs\resto\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\resto\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 [internal function]: spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\resto\system\Config\Factories.php(136): class_exists('Config\\Filters')
+#5 C:\xampp\htdocs\resto\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Filters')
+#6 C:\xampp\htdocs\resto\system\Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#7 C:\xampp\htdocs\resto\system\Config\Services.php(258): config('Filters')
+#8 C:\xampp\htdocs\resto\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters(NULL, false)
+#9 C:\xampp\htdocs\resto\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#10 C:\xampp\htdocs\resto\system\Config\Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#11 C:\xampp\htdocs\resto\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters()
+#12 C:\xampp\htdocs\resto\system\CodeIgniter.php(366): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#13 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2022-03-23 13:12:32 --> Undefined variable: judul
+#0 C:\xampp\htdocs\resto\app\Views\Order\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(11): view('order/index')
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-23 13:13:05 --> Undefined variable: judul
+#0 C:\xampp\htdocs\resto\app\Views\Order\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(15): view('order/index')
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-23 13:13:06 --> Undefined variable: judul
+#0 C:\xampp\htdocs\resto\app\Views\Order\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(15): view('order/index')
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-23 13:13:08 --> Undefined variable: judul
+#0 C:\xampp\htdocs\resto\app\Views\Order\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(15): view('order/index')
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-23 13:13:26 --> Undefined variable: menu
+#0 C:\xampp\htdocs\resto\app\Views\Order\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(15): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-23 13:14:39 --> Undefined variable: menu
+#0 C:\xampp\htdocs\resto\app\Views\Order\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(15): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-23 13:15:24 --> Undefined variable: menu
+#0 C:\xampp\htdocs\resto\app\Views\Order\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(15): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-23 13:16:11 --> Undefined variable: menu
+#0 C:\xampp\htdocs\resto\app\Views\Order\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(15): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-23 13:16:36 --> Undefined variable: title
+#0 C:\xampp\htdocs\resto\app\Views\pages\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\View\View.php(226): CodeIgniter\View\View->render('pages/index', Array, true)
+#4 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#5 C:\xampp\htdocs\resto\app\Controllers\Order.php(15): view('order/index', Array)
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#8 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-03-23 13:18:29 --> Undefined variable: menu
+#0 C:\xampp\htdocs\resto\app\Views\Order\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(16): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-23 13:19:08 --> Undefined variable: key
+#0 C:\xampp\htdocs\resto\app\Views\Order\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(16): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-23 18:40:32 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-23 18:40:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\resto\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\resto\app\Controllers\Login.php(26): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Login->masuk()
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

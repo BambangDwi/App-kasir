@@ -1,0 +1,526 @@
+CRITICAL - 2022-03-28 02:05:04 --> Undefined index: username
+#0 C:\xampp\htdocs\resto\app\Controllers\Login.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Login->masuk()
+#2 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-28 02:05:05 --> Undefined index: username
+#0 C:\xampp\htdocs\resto\app\Controllers\Login.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Login->masuk()
+#2 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-28 02:05:06 --> Undefined index: username
+#0 C:\xampp\htdocs\resto\app\Controllers\Login.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Login->masuk()
+#2 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-28 02:09:03 --> syntax error, unexpected ','
+#0 C:\xampp\htdocs\resto\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\resto\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-28 02:11:04 --> Undefined property: stdClass::$customer
+#0 C:\xampp\htdocs\resto\app\Views\order\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(34): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-28 02:11:32 --> Undefined property: stdClass::$customer
+#0 C:\xampp\htdocs\resto\app\Views\order\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(34): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-28 02:12:33 --> Undefined property: stdClass::$customer
+#0 C:\xampp\htdocs\resto\app\Views\order\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(34): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-28 02:13:16 --> Undefined property: stdClass::$customer
+#0 C:\xampp\htdocs\resto\app\Views\order\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(34): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-28 02:13:17 --> Undefined property: stdClass::$customer
+#0 C:\xampp\htdocs\resto\app\Views\order\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(34): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-28 02:13:41 --> Undefined property: stdClass::$customer
+#0 C:\xampp\htdocs\resto\app\Views\order\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(34): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-28 02:14:52 --> Undefined property: stdClass::$customer
+#0 C:\xampp\htdocs\resto\app\Views\order\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(34): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-28 02:15:47 --> Undefined property: stdClass::$customer
+#0 C:\xampp\htdocs\resto\app\Views\order\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(34): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-28 02:16:27 --> Undefined property: stdClass::$customer
+#0 C:\xampp\htdocs\resto\app\Views\order\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(34): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-28 02:16:34 --> Undefined property: stdClass::$customer
+#0 C:\xampp\htdocs\resto\app\Views\order\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(34): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-28 02:17:16 --> Undefined property: stdClass::$customer
+#0 C:\xampp\htdocs\resto\app\Views\order\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(34): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-28 02:19:02 --> Column 'id_menu' cannot be null
+CRITICAL - 2022-03-28 02:19:02 --> Column 'id_menu' cannot be null
+#0 C:\xampp\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\resto\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\resto\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\resto\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\resto\app\Controllers\Order.php(73): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->insertpesan()
+#9 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#10 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-03-28 02:20:03 --> Column 'id_menu' cannot be null
+CRITICAL - 2022-03-28 02:20:03 --> Column 'id_menu' cannot be null
+#0 C:\xampp\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\resto\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\resto\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\resto\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\resto\app\Controllers\Order.php(73): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->insertpesan()
+#9 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#10 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-03-28 02:23:54 --> Invalid file: log/index.php
+#0 C:\xampp\htdocs\resto\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('log/index.php')
+#1 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('log/index', Array, true)
+#2 C:\xampp\htdocs\resto\app\Controllers\Log.php(21): view('log/index', Array)
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Log->index()
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-28 02:24:00 --> Invalid file: log/index.php
+#0 C:\xampp\htdocs\resto\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('log/index.php')
+#1 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('log/index', Array, true)
+#2 C:\xampp\htdocs\resto\app\Controllers\Log.php(21): view('log/index', Array)
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Log->index()
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-28 02:26:13 --> Undefined variable: menu
+#0 C:\xampp\htdocs\resto\app\Views\Log\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('log/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Log.php(21): view('log/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Log->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Log))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-28 02:33:05 --> Column 'no_meja' cannot be null
+CRITICAL - 2022-03-28 02:33:05 --> Column 'no_meja' cannot be null
+#0 C:\xampp\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `or...', 0)
+#1 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\resto\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\resto\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\resto\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\resto\app\Controllers\Order.php(95): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->insert()
+#9 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#10 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-03-28 02:35:25 --> Column 'no_meja' cannot be null
+CRITICAL - 2022-03-28 02:35:25 --> Column 'no_meja' cannot be null
+#0 C:\xampp\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `or...', 0)
+#1 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\resto\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\resto\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\resto\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\resto\app\Controllers\Order.php(95): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->insert()
+#9 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#10 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-03-28 02:36:09 --> Column 'no_meja' cannot be null
+CRITICAL - 2022-03-28 02:36:09 --> Column 'no_meja' cannot be null
+#0 C:\xampp\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `or...', 0)
+#1 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\resto\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\resto\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\resto\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\resto\app\Controllers\Order.php(95): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->insert()
+#9 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#10 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-03-28 02:36:14 --> Column 'no_meja' cannot be null
+CRITICAL - 2022-03-28 02:36:14 --> Column 'no_meja' cannot be null
+#0 C:\xampp\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `or...', 0)
+#1 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\resto\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\resto\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\resto\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\resto\app\Controllers\Order.php(95): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->insert()
+#9 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#10 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-03-28 02:36:30 --> Column 'no_meja' cannot be null
+CRITICAL - 2022-03-28 02:36:30 --> Column 'no_meja' cannot be null
+#0 C:\xampp\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `or...', 0)
+#1 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\resto\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\resto\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\resto\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\resto\app\Controllers\Order.php(95): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->insert()
+#9 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#10 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-03-28 02:37:26 --> Column 'no_meja' cannot be null
+CRITICAL - 2022-03-28 02:37:26 --> Column 'no_meja' cannot be null
+#0 C:\xampp\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `or...', 0)
+#1 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\resto\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\resto\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\resto\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\resto\app\Controllers\Order.php(95): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->insert()
+#9 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#10 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-03-28 02:49:10 --> Column 'id_menu' cannot be null
+CRITICAL - 2022-03-28 02:49:10 --> Column 'id_menu' cannot be null
+#0 C:\xampp\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\resto\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\resto\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\resto\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\resto\app\Controllers\Order.php(73): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->insertpesan()
+#9 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#10 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-03-28 05:24:15 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-28 05:24:15 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\resto\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\resto\app\Controllers\Login.php(26): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Login->masuk()
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-28 05:25:08 --> Undefined index: username
+#0 C:\xampp\htdocs\resto\app\Controllers\Login.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Login->masuk()
+#2 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-28 05:26:00 --> Undefined index: username
+#0 C:\xampp\htdocs\resto\app\Controllers\Login.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Login->masuk()
+#2 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-28 09:13:53 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-28 09:13:53 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\resto\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\resto\app\Controllers\Login.php(22): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Login->masuk()
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-28 10:43:25 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/index', Array, true)
+#2 C:\xampp\htdocs\resto\app\Controllers\Transaksi.php(30): view('transaksi/index', Array)
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Transaksi->index()
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-28 10:58:29 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/index', Array, true)
+#2 C:\xampp\htdocs\resto\app\Controllers\Transaksi.php(30): view('transaksi/index', Array)
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Transaksi->index()
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-03-28 12:13:01 --> Column 'id_menu' cannot be null
+CRITICAL - 2022-03-28 12:13:01 --> Column 'id_menu' cannot be null
+#0 C:\xampp\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\resto\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\resto\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\resto\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\resto\app\Controllers\Order.php(73): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->insertpesan()
+#9 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#10 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-03-28 21:15:40 --> ManajerFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('ManajerFilter')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(244): CodeIgniter\Filters\Filters->processAliasesToClass('after')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-28 21:16:30 --> ManajerFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('ManajerFilter')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(244): CodeIgniter\Filters\Filters->processAliasesToClass('after')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-28 21:16:46 --> ManajerFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('ManajerFilter')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(244): CodeIgniter\Filters\Filters->processAliasesToClass('after')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-28 21:18:12 --> ManajerFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('ManajerFilter')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(244): CodeIgniter\Filters\Filters->processAliasesToClass('after')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-28 21:18:18 --> ManajerFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('ManajerFilter')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(244): CodeIgniter\Filters\Filters->processAliasesToClass('after')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-28 21:18:27 --> ManajerFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('ManajerFilter')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(244): CodeIgniter\Filters\Filters->processAliasesToClass('after')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login/logout')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('Login/logout', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-28 21:19:38 --> ManajerFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\resto\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('ManajerFilter')
+#1 C:\xampp\htdocs\resto\system\Filters\Filters.php(244): CodeIgniter\Filters\Filters->processAliasesToClass('after')
+#2 C:\xampp\htdocs\resto\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-28 21:21:56 --> Class 'App\Filters\ManagerFilter' not found
+#0 C:\xampp\htdocs\resto\system\CodeIgniter.php(429): CodeIgniter\Filters\Filters->run('login', 'after')
+#1 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2022-03-28 21:22:44 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-28 21:22:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\resto\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\resto\app\Controllers\Login.php(22): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Login->masuk()
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-28 21:23:07 --> Undefined index: username
+#0 C:\xampp\htdocs\resto\app\Controllers\Login.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Login->masuk()
+#2 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-28 21:28:35 --> Undefined variable: SUB
+#0 C:\xampp\htdocs\resto\app\Views\home\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Home.php(38): view('home/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

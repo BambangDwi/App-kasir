@@ -1,0 +1,372 @@
+CRITICAL - 2022-03-12 02:56:11 --> Too few arguments to function App\Controllers\Menu::deletemenu(), 0 passed in C:\xampp2\htdocs\resto\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->deletemenu()
+#1 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#2 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2022-03-12 02:56:50 --> Too few arguments to function App\Controllers\Menu::deletemenu(), 0 passed in C:\xampp2\htdocs\resto\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->deletemenu()
+#1 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#2 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2022-03-12 02:56:52 --> Too few arguments to function App\Controllers\Menu::deletemenu(), 0 passed in C:\xampp2\htdocs\resto\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->deletemenu()
+#1 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#2 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2022-03-12 02:56:53 --> Too few arguments to function App\Controllers\Menu::deletemenu(), 0 passed in C:\xampp2\htdocs\resto\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->deletemenu()
+#1 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#2 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2022-03-12 02:56:54 --> Too few arguments to function App\Controllers\Menu::deletemenu(), 0 passed in C:\xampp2\htdocs\resto\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->deletemenu()
+#1 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#2 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2022-03-12 02:56:55 --> Too few arguments to function App\Controllers\Menu::deletemenu(), 0 passed in C:\xampp2\htdocs\resto\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->deletemenu()
+#1 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#2 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2022-03-12 02:56:56 --> Too few arguments to function App\Controllers\Menu::deletemenu(), 0 passed in C:\xampp2\htdocs\resto\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->deletemenu()
+#1 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#2 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2022-03-12 02:56:57 --> Too few arguments to function App\Controllers\Menu::deletemenu(), 0 passed in C:\xampp2\htdocs\resto\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->deletemenu()
+#1 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#2 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2022-03-12 02:56:57 --> Too few arguments to function App\Controllers\Menu::deletemenu(), 0 passed in C:\xampp2\htdocs\resto\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->deletemenu()
+#1 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#2 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2022-03-12 02:57:16 --> syntax error, unexpected ';', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp2\htdocs\resto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('menu/deletemenu')
+#1 C:\xampp2\htdocs\resto\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('menu/deletemenu')
+#2 C:\xampp2\htdocs\resto\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2022-03-12 03:20:09 --> syntax error, unexpected ';', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp2\htdocs\resto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('menu/deletemenu')
+#1 C:\xampp2\htdocs\resto\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('menu/deletemenu')
+#2 C:\xampp2\htdocs\resto\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2022-03-12 03:20:11 --> syntax error, unexpected ';', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp2\htdocs\resto\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp2\\htdoc...')
+#1 C:\xampp2\htdocs\resto\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp2\htdocs\resto\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-12 03:20:17 --> syntax error, unexpected ';', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp2\htdocs\resto\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp2\\htdoc...')
+#1 C:\xampp2\htdocs\resto\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp2\htdocs\resto\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-12 04:06:57 --> Too few arguments to function App\Controllers\Menu::editmenu(), 0 passed in C:\xampp2\htdocs\resto\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->editmenu()
+#1 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#2 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2022-03-12 04:12:56 --> Undefined variable: tampil
+#0 C:\xampp2\htdocs\resto\app\Views\menu\editmenu.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 20, Array)
+#1 C:\xampp2\htdocs\resto\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('menu/editmenu', Array, true)
+#4 C:\xampp2\htdocs\resto\app\Controllers\Menu.php(64): view('menu/editmenu', Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->ubahmenu()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2022-03-12 04:23:35 --> Undefined variable: tampil
+#0 C:\xampp2\htdocs\resto\app\Views\menu\editmenu.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 20, Array)
+#1 C:\xampp2\htdocs\resto\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('menu/editmenu', Array, true)
+#4 C:\xampp2\htdocs\resto\app\Controllers\Menu.php(64): view('menu/editmenu', Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->ubahmenu()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2022-03-12 04:23:37 --> Undefined variable: tampil
+#0 C:\xampp2\htdocs\resto\app\Views\menu\editmenu.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 20, Array)
+#1 C:\xampp2\htdocs\resto\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('menu/editmenu', Array, true)
+#4 C:\xampp2\htdocs\resto\app\Controllers\Menu.php(64): view('menu/editmenu', Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->ubahmenu()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2022-03-12 04:23:37 --> Undefined variable: tampil
+#0 C:\xampp2\htdocs\resto\app\Views\menu\editmenu.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 20, Array)
+#1 C:\xampp2\htdocs\resto\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('menu/editmenu', Array, true)
+#4 C:\xampp2\htdocs\resto\app\Controllers\Menu.php(64): view('menu/editmenu', Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->ubahmenu()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2022-03-12 04:26:48 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp2\htdocs\resto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('menu/ubahmenu')
+#1 C:\xampp2\htdocs\resto\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('menu/ubahmenu')
+#2 C:\xampp2\htdocs\resto\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2022-03-12 04:27:20 --> Undefined variable: tampil
+#0 C:\xampp2\htdocs\resto\app\Views\menu\editmenu.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 20, Array)
+#1 C:\xampp2\htdocs\resto\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('menu/editmenu', Array, true)
+#4 C:\xampp2\htdocs\resto\app\Controllers\Menu.php(59): view('menu/editmenu', Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->ubahmenu()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2022-03-12 08:13:50 --> Too few arguments to function App\Controllers\Menu::editmenu(), 0 passed in C:\xampp2\htdocs\resto\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->editmenu()
+#1 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#2 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2022-03-12 08:14:30 --> syntax error, unexpected '==' (T_IS_EQUAL), expecting ')'
+#0 C:\xampp2\htdocs\resto\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp2\\htdoc...')
+#1 C:\xampp2\htdocs\resto\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp2\htdocs\resto\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-12 08:14:44 --> Undefined variable: id_menu
+#0 C:\xampp2\htdocs\resto\app\Controllers\Menu.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 64, Array)
+#1 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->editmenu()
+#2 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2022-03-12 08:15:21 --> Undefined variable: judul
+#0 C:\xampp2\htdocs\resto\app\Views\menu\editmenu.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 6, Array)
+#1 C:\xampp2\htdocs\resto\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('menu/editmenu', Array, true)
+#4 C:\xampp2\htdocs\resto\app\Controllers\Menu.php(69): view('menu/editmenu', Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->editmenu()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2022-03-12 08:16:10 --> Function name must be a string
+#0 C:\xampp2\htdocs\resto\system\View\View.php(210): include()
+#1 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('menu/editmenu', Array, true)
+#3 C:\xampp2\htdocs\resto\app\Controllers\Menu.php(70): view('menu/editmenu', Array)
+#4 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->editmenu('1')
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-12 08:21:17 --> Undefined variable: menu
+#0 C:\xampp2\htdocs\resto\app\Views\menu\editmenu.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 20, Array)
+#1 C:\xampp2\htdocs\resto\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('menu/editmenu', Array, true)
+#4 C:\xampp2\htdocs\resto\app\Controllers\Menu.php(70): view('menu/editmenu', Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->editmenu('1')
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2022-03-12 08:21:34 --> Undefined variable: title
+#0 C:\xampp2\htdocs\resto\app\Views\pages\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 10, Array)
+#1 C:\xampp2\htdocs\resto\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\resto\system\View\View.php(226): CodeIgniter\View\View->render('pages/index', Array, true)
+#4 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('menu/editmenu', Array, true)
+#5 C:\xampp2\htdocs\resto\app\Controllers\Menu.php(70): view('menu/editmenu', Array)
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->editmenu('1')
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#8 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#11 {main}
+CRITICAL - 2022-03-12 08:21:58 --> syntax error, unexpected ''menu'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp2\htdocs\resto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('menu/editmenu/1')
+#1 C:\xampp2\htdocs\resto\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('menu/editmenu/1')
+#2 C:\xampp2\htdocs\resto\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2022-03-12 08:22:50 --> syntax error, unexpected ''menu'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp2\htdocs\resto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('menu/editmenu/1')
+#1 C:\xampp2\htdocs\resto\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('menu/editmenu/1')
+#2 C:\xampp2\htdocs\resto\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2022-03-12 08:23:13 --> syntax error, unexpected ''menu'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp2\htdocs\resto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('menu/editmenu/1')
+#1 C:\xampp2\htdocs\resto\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('menu/editmenu/1')
+#2 C:\xampp2\htdocs\resto\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2022-03-12 08:23:15 --> syntax error, unexpected ''menu'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp2\htdocs\resto\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp2\\htdoc...')
+#1 C:\xampp2\htdocs\resto\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp2\htdocs\resto\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-12 08:23:18 --> syntax error, unexpected ''menu'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp2\htdocs\resto\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp2\\htdoc...')
+#1 C:\xampp2\htdocs\resto\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp2\htdocs\resto\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-12 08:29:33 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, string given, called in C:\xampp2\htdocs\resto\app\Controllers\Menu.php on line 88
+#0 C:\xampp2\htdocs\resto\app\Controllers\Menu.php(88): CodeIgniter\Database\BaseBuilder->update('1', Array)
+#1 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->editdata('1')
+#2 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2022-03-12 08:29:47 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, string given, called in C:\xampp2\htdocs\resto\app\Controllers\Menu.php on line 88
+#0 C:\xampp2\htdocs\resto\app\Controllers\Menu.php(88): CodeIgniter\Database\BaseBuilder->update('1', Array)
+#1 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->editdata('1')
+#2 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#3 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#6 {main}
+ERROR - 2022-03-12 18:19:00 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-12 18:19:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp2\htdocs\resto\system\Database\BaseBuilder.php(1484): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 C:\xampp2\htdocs\resto\app\Models\UserModel.php(56): CodeIgniter\Database\BaseBuilder->countAll()
+#3 C:\xampp2\htdocs\resto\app\Controllers\Home.php(104): App\Models\UserModel->jumlahUser()
+#4 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Home->home()
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-12 18:19:00 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp2\htdocs\resto\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp2\\htdoc...', 96, Array)
+#1 C:\xampp2\htdocs\resto\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 C:\xampp2\htdocs\resto\system\Debug\Exceptions.php(234): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\resto\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp2\htdocs\resto\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-12 20:07:43 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp2\htdocs\resto\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp2\\htdoc...')
+#1 C:\xampp2\htdocs\resto\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp2\htdocs\resto\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-12 20:08:30 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp2\htdocs\resto\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp2\\htdoc...')
+#1 C:\xampp2\htdocs\resto\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp2\htdocs\resto\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-12 20:08:36 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp2\htdocs\resto\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp2\\htdoc...')
+#1 C:\xampp2\htdocs\resto\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp2\htdocs\resto\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#9 {main}

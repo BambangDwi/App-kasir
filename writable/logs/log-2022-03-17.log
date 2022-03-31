@@ -1,0 +1,64 @@
+CRITICAL - 2022-03-17 18:21:41 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\resto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('login/index')
+#1 C:\xampp\htdocs\resto\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('login/index')
+#2 C:\xampp\htdocs\resto\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-17 18:34:35 --> Trying to get property 'id_user' of non-object
+#0 C:\xampp\htdocs\resto\app\Views\user\edituser.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('user/edituser', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\User.php(64): view('user/edituser', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\User->edituser('$value->id_user')
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-17 18:36:17 --> Argument 2 passed to site_url() must be of the type string or null, array given, called in C:\xampp\htdocs\resto\app\Controllers\Login.php on line 21
+#0 C:\xampp\htdocs\resto\app\Controllers\Login.php(21): site_url('login', Array)
+#1 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-17 18:36:27 --> Argument 2 passed to site_url() must be of the type string or null, array given, called in C:\xampp\htdocs\resto\app\Controllers\Login.php on line 21
+#0 C:\xampp\htdocs\resto\app\Controllers\Login.php(21): site_url('login', Array)
+#1 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-17 18:36:31 --> Argument 2 passed to site_url() must be of the type string or null, array given, called in C:\xampp\htdocs\resto\app\Controllers\Login.php on line 21
+#0 C:\xampp\htdocs\resto\app\Controllers\Login.php(21): site_url('login', Array)
+#1 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-17 18:36:32 --> Trying to get property 'id_user' of non-object
+#0 C:\xampp\htdocs\resto\app\Views\user\edituser.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('user/edituser', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\User.php(64): view('user/edituser', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\User->edituser('$value->id_user')
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-17 18:37:38 --> Argument 2 passed to site_url() must be of the type string or null, array given, called in C:\xampp\htdocs\resto\app\Controllers\Login.php on line 21
+#0 C:\xampp\htdocs\resto\app\Controllers\Login.php(21): site_url('login', Array)
+#1 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

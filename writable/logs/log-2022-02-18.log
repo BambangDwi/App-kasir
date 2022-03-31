@@ -1,0 +1,197 @@
+ERROR - 2022-02-18 01:53:33 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-18 01:53:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp2\htdocs\resto\system\Database\BaseBuilder.php(1484): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 C:\xampp2\htdocs\resto\app\Models\UserModel.php(56): CodeIgniter\Database\BaseBuilder->countAll()
+#3 C:\xampp2\htdocs\resto\app\Controllers\Home.php(31): App\Models\UserModel->jumlahUser()
+#4 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Home->home()
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#9 {main}
+ERROR - 2022-02-18 01:54:05 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-18 01:54:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp2\htdocs\resto\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp2\htdocs\resto\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp2\htdocs\resto\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp2\htdocs\resto\app\Controllers\Menu.php(20): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->index()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+ERROR - 2022-02-18 01:54:21 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-18 01:54:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp2\htdocs\resto\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp2\htdocs\resto\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp2\htdocs\resto\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp2\htdocs\resto\app\Controllers\Menu.php(20): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->index()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+ERROR - 2022-02-18 01:54:32 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-18 01:54:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp2\htdocs\resto\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp2\htdocs\resto\app\Models\UserModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp2\htdocs\resto\app\Controllers\User.php(20): App\Models\UserModel->dataUser()
+#4 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\User->index()
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#9 {main}
+ERROR - 2022-02-18 01:55:05 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-18 01:55:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp2\htdocs\resto\system\Database\BaseBuilder.php(1484): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 C:\xampp2\htdocs\resto\app\Models\UserModel.php(56): CodeIgniter\Database\BaseBuilder->countAll()
+#3 C:\xampp2\htdocs\resto\app\Controllers\Home.php(31): App\Models\UserModel->jumlahUser()
+#4 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Home->home()
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2022-02-18 01:55:05 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp2\htdocs\resto\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp2\\htdoc...', 96, Array)
+#1 C:\xampp2\htdocs\resto\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 C:\xampp2\htdocs\resto\system\Debug\Exceptions.php(234): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\resto\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp2\htdocs\resto\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-18 12:48:39 --> Undefined variable: title
+#0 C:\xampp2\htdocs\resto\app\Views\login\login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 10, Array)
+#1 C:\xampp2\htdocs\resto\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('login/login', Array, true)
+#4 C:\xampp2\htdocs\resto\app\Controllers\Home.php(18): view('login/login')
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2022-02-18 12:50:00 --> Undefined variable: title
+#0 C:\xampp2\htdocs\resto\app\Views\login\login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 10, Array)
+#1 C:\xampp2\htdocs\resto\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('login/login', Array, true)
+#4 C:\xampp2\htdocs\resto\app\Controllers\Home.php(18): view('login/login')
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2022-02-18 12:50:31 --> Undefined variable: title
+#0 C:\xampp2\htdocs\resto\app\Views\login\login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 10, Array)
+#1 C:\xampp2\htdocs\resto\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('login/login', Array, true)
+#4 C:\xampp2\htdocs\resto\app\Controllers\Home.php(18): view('login/login')
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2022-02-18 12:52:13 --> Undefined variable: title
+#0 C:\xampp2\htdocs\resto\app\Views\login\login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 10, Array)
+#1 C:\xampp2\htdocs\resto\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('login/login', Array, true)
+#4 C:\xampp2\htdocs\resto\app\Controllers\Home.php(18): view('login/login')
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2022-02-18 22:02:19 --> Call to undefined function form_open()
+#0 C:\xampp2\htdocs\resto\system\View\View.php(210): include()
+#1 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('login/login', Array, true)
+#3 C:\xampp2\htdocs\resto\app\Controllers\Home.php(21): view('login/login', Array)
+#4 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2022-02-18 22:04:45 --> Call to undefined function form_open()
+#0 C:\xampp2\htdocs\resto\system\View\View.php(210): include()
+#1 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('login/login', Array, true)
+#3 C:\xampp2\htdocs\resto\app\Controllers\Home.php(21): view('login/login', Array)
+#4 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2022-02-18 22:07:14 --> Call to undefined function form_open()
+#0 C:\xampp2\htdocs\resto\system\View\View.php(210): include()
+#1 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('login/login', Array, true)
+#3 C:\xampp2\htdocs\resto\app\Controllers\Home.php(21): view('login/login', Array)
+#4 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#9 {main}
+ERROR - 2022-02-18 22:11:39 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-18 22:11:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp2\htdocs\resto\system\Database\BaseBuilder.php(1484): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 C:\xampp2\htdocs\resto\app\Models\UserModel.php(56): CodeIgniter\Database\BaseBuilder->countAll()
+#3 C:\xampp2\htdocs\resto\app\Controllers\Home.php(34): App\Models\UserModel->jumlahUser()
+#4 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Home->home()
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2022-02-18 22:11:39 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp2\htdocs\resto\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp2\\htdoc...', 96, Array)
+#1 C:\xampp2\htdocs\resto\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 C:\xampp2\htdocs\resto\system\Debug\Exceptions.php(234): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\resto\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp2\htdocs\resto\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

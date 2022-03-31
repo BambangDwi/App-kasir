@@ -1,0 +1,275 @@
+CRITICAL - 2022-03-24 09:42:23 --> Trying to get property 'nama_level' of non-object
+#0 C:\xampp\htdocs\resto\app\Views\home\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Home.php(34): view('home/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-24 09:42:41 --> Undefined variable: level
+#0 C:\xampp\htdocs\resto\app\Views\home\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Home.php(34): view('home/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-24 09:42:45 --> Undefined variable: level
+#0 C:\xampp\htdocs\resto\app\Views\home\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Home.php(34): view('home/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-24 20:01:32 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-24 20:01:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\resto\app\Controllers\Order.php(14): CodeIgniter\Database\BaseConnection->query('SELECT*FROM tb_...')
+#2 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-24 20:02:24 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-24 20:02:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\resto\app\Controllers\Order.php(14): CodeIgniter\Database\BaseConnection->query('SELECT*FROM tb_...')
+#2 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-24 20:02:39 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-24 20:02:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\resto\app\Controllers\Order.php(14): CodeIgniter\Database\BaseConnection->query('SELECT*FROM tb_...')
+#2 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-24 20:14:34 --> Table 'dbresto.tb_order' doesn't exist
+CRITICAL - 2022-03-24 20:14:34 --> Table 'dbresto.tb_order' doesn't exist
+#0 C:\xampp\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT*FROM tb_...', 0)
+#1 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT*FROM tb_...')
+#2 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT*FROM tb_...')
+#3 C:\xampp\htdocs\resto\app\Controllers\Order.php(20): CodeIgniter\Database\BaseConnection->query('SELECT*FROM tb_...')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-03-24 20:15:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order ORDER BY status_order ASC' at line 1
+CRITICAL - 2022-03-24 20:15:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order ORDER BY status_order ASC' at line 1
+#0 C:\xampp\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT*FROM ord...', 0)
+#1 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT*FROM ord...')
+#2 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT*FROM ord...')
+#3 C:\xampp\htdocs\resto\app\Controllers\Order.php(20): CodeIgniter\Database\BaseConnection->query('SELECT*FROM ord...')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-03-24 20:16:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order ORDER BY status_order ASC' at line 1
+CRITICAL - 2022-03-24 20:16:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order ORDER BY status_order ASC' at line 1
+#0 C:\xampp\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT*FROM ord...', 0)
+#1 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT*FROM ord...')
+#2 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT*FROM ord...')
+#3 C:\xampp\htdocs\resto\app\Controllers\Order.php(20): CodeIgniter\Database\BaseConnection->query('SELECT*FROM ord...')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-03-24 20:16:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order ORDER BY status_order ASC' at line 1
+CRITICAL - 2022-03-24 20:16:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order ORDER BY status_order ASC' at line 1
+#0 C:\xampp\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT*FROM ord...', 0)
+#1 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT*FROM ord...')
+#2 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT*FROM ord...')
+#3 C:\xampp\htdocs\resto\app\Controllers\Order.php(20): CodeIgniter\Database\BaseConnection->query('SELECT*FROM ord...')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-03-24 20:18:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order ORDER BY status_order ASC' at line 1
+CRITICAL - 2022-03-24 20:18:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order ORDER BY status_order ASC' at line 1
+#0 C:\xampp\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT*FROM ord...', 0)
+#1 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT*FROM ord...')
+#2 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT*FROM ord...')
+#3 C:\xampp\htdocs\resto\app\Controllers\Order.php(20): CodeIgniter\Database\BaseConnection->query('SELECT*FROM ord...')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-03-24 20:18:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order ORDER BY status_order ASC' at line 1
+CRITICAL - 2022-03-24 20:18:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order ORDER BY status_order ASC' at line 1
+#0 C:\xampp\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT*FROM ord...', 0)
+#1 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT*FROM ord...')
+#2 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT*FROM ord...')
+#3 C:\xampp\htdocs\resto\app\Controllers\Order.php(20): CodeIgniter\Database\BaseConnection->query('SELECT*FROM ord...')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-03-24 20:19:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order ORDER BY status_order ASC' at line 1
+CRITICAL - 2022-03-24 20:19:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order ORDER BY status_order ASC' at line 1
+#0 C:\xampp\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT*FROM ord...', 0)
+#1 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT*FROM ord...')
+#2 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT*FROM ord...')
+#3 C:\xampp\htdocs\resto\app\Controllers\Order.php(20): CodeIgniter\Database\BaseConnection->query('SELECT*FROM ord...')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-24 20:22:13 --> Argument 1 passed to view() must be of the type string, array given, called in C:\xampp\htdocs\resto\app\Controllers\Order.php on line 26
+#0 C:\xampp\htdocs\resto\app\Controllers\Order.php(26): view(Array)
+#1 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#2 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#3 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-24 20:25:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order ORDER BY status_order ASC' at line 1
+CRITICAL - 2022-03-24 20:25:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order ORDER BY status_order ASC' at line 1
+#0 C:\xampp\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT*FROM ord...', 0)
+#1 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT*FROM ord...')
+#2 C:\xampp\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT*FROM ord...')
+#3 C:\xampp\htdocs\resto\app\Controllers\Order.php(20): CodeIgniter\Database\BaseConnection->query('SELECT*FROM ord...')
+#4 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-24 20:37:04 --> Undefined property: stdClass::$nama_user
+#0 C:\xampp\htdocs\resto\app\Views\Order\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(33): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-24 20:38:06 --> Undefined property: stdClass::$nama_user
+#0 C:\xampp\htdocs\resto\app\Views\Order\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(34): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-24 20:38:07 --> Undefined property: stdClass::$nama_user
+#0 C:\xampp\htdocs\resto\app\Views\Order\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(34): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-24 20:38:43 --> Undefined property: stdClass::$nama_user
+#0 C:\xampp\htdocs\resto\app\Views\Order\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(35): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-24 20:38:44 --> Undefined property: stdClass::$nama_user
+#0 C:\xampp\htdocs\resto\app\Views\Order\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(35): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-24 20:39:32 --> Undefined property: stdClass::$nama_user
+#0 C:\xampp\htdocs\resto\app\Views\Order\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(35): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-24 20:39:33 --> Undefined property: stdClass::$nama_user
+#0 C:\xampp\htdocs\resto\app\Views\Order\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(35): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-24 20:39:36 --> Undefined property: stdClass::$nama_user
+#0 C:\xampp\htdocs\resto\app\Views\Order\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\resto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('order/index', Array, true)
+#4 C:\xampp\htdocs\resto\app\Controllers\Order.php(35): view('order/index', Array)
+#5 C:\xampp\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Order->index()
+#6 C:\xampp\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#7 C:\xampp\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

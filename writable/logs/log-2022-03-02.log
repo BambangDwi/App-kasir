@@ -1,0 +1,254 @@
+ERROR - 2022-03-02 12:10:33 --> Unknown column 'title' in 'field list'
+CRITICAL - 2022-03-02 12:10:33 --> Unknown column 'title' in 'field list'
+#0 C:\xampp2\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp2\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp2\htdocs\resto\app\Controllers\Menu.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->tambahmenu()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+ERROR - 2022-03-02 12:13:01 --> Column 'nama_menu' cannot be null
+CRITICAL - 2022-03-02 12:13:01 --> Column 'nama_menu' cannot be null
+#0 C:\xampp2\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp2\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp2\htdocs\resto\app\Controllers\Menu.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->tambahmenu()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+ERROR - 2022-03-02 12:14:14 --> Column 'nama_menu' cannot be null
+CRITICAL - 2022-03-02 12:14:14 --> Column 'nama_menu' cannot be null
+#0 C:\xampp2\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp2\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp2\htdocs\resto\app\Controllers\Menu.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->tambahmenu()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+ERROR - 2022-03-02 12:21:11 --> Column 'nama_menu' cannot be null
+CRITICAL - 2022-03-02 12:21:11 --> Column 'nama_menu' cannot be null
+#0 C:\xampp2\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp2\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp2\htdocs\resto\app\Controllers\Menu.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->tambahmenu()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+ERROR - 2022-03-02 12:29:15 --> Column 'username' cannot be null
+CRITICAL - 2022-03-02 12:29:15 --> Column 'username' cannot be null
+#0 C:\xampp2\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp2\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp2\htdocs\resto\app\Controllers\User.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\User->tambahuser()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+ERROR - 2022-03-02 12:34:16 --> Column 'username' cannot be null
+CRITICAL - 2022-03-02 12:34:16 --> Column 'username' cannot be null
+#0 C:\xampp2\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp2\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp2\htdocs\resto\app\Controllers\User.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\User->tambahuser()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+ERROR - 2022-03-02 12:37:40 --> Column 'username' cannot be null
+CRITICAL - 2022-03-02 12:37:40 --> Column 'username' cannot be null
+#0 C:\xampp2\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp2\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp2\htdocs\resto\app\Controllers\User.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\User->tambahuser()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+ERROR - 2022-03-02 12:37:41 --> Column 'username' cannot be null
+CRITICAL - 2022-03-02 12:37:41 --> Column 'username' cannot be null
+#0 C:\xampp2\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp2\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp2\htdocs\resto\app\Controllers\User.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\User->tambahuser()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+ERROR - 2022-03-02 22:28:00 --> Column 'username' cannot be null
+CRITICAL - 2022-03-02 22:28:00 --> Column 'username' cannot be null
+#0 C:\xampp2\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp2\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp2\htdocs\resto\app\Controllers\User.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\User->tambahuser()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+ERROR - 2022-03-02 22:44:29 --> Column 'nama_menu' cannot be null
+CRITICAL - 2022-03-02 22:44:29 --> Column 'nama_menu' cannot be null
+#0 C:\xampp2\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp2\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp2\htdocs\resto\app\Controllers\Menu.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->tambahmenu()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+ERROR - 2022-03-02 22:44:30 --> Column 'nama_menu' cannot be null
+CRITICAL - 2022-03-02 22:44:30 --> Column 'nama_menu' cannot be null
+#0 C:\xampp2\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp2\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp2\htdocs\resto\app\Controllers\Menu.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->tambahmenu()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+ERROR - 2022-03-02 22:52:31 --> Column 'nama_menu' cannot be null
+CRITICAL - 2022-03-02 22:52:31 --> Column 'nama_menu' cannot be null
+#0 C:\xampp2\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp2\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp2\htdocs\resto\app\Controllers\Menu.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Menu->tambahmenu()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+ERROR - 2022-03-02 23:32:09 --> Column 'username' cannot be null
+CRITICAL - 2022-03-02 23:32:09 --> Column 'username' cannot be null
+#0 C:\xampp2\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp2\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp2\htdocs\resto\app\Controllers\User.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\User->tambahuser()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+ERROR - 2022-03-02 23:32:47 --> Column 'username' cannot be null
+CRITICAL - 2022-03-02 23:32:47 --> Column 'username' cannot be null
+#0 C:\xampp2\htdocs\resto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp2\htdocs\resto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp2\htdocs\resto\app\Controllers\User.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\User->tambahuser()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2022-03-02 23:48:23 --> Undefined variable: jumlah
+#0 C:\xampp2\htdocs\resto\app\Views\user\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 10, Array)
+#1 C:\xampp2\htdocs\resto\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\xampp2\htdocs\resto\app\Controllers\User.php(36): view('user/index', Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\User->tambahuser()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2022-03-02 23:48:33 --> Undefined variable: jumlah
+#0 C:\xampp2\htdocs\resto\app\Views\user\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 10, Array)
+#1 C:\xampp2\htdocs\resto\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\xampp2\htdocs\resto\app\Controllers\User.php(36): view('user/index', Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\User->tambahuser()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2022-03-02 23:48:43 --> Undefined variable: jumlah
+#0 C:\xampp2\htdocs\resto\app\Views\user\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 10, Array)
+#1 C:\xampp2\htdocs\resto\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\xampp2\htdocs\resto\app\Controllers\User.php(36): view('user/index', Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\User->tambahuser()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2022-03-02 23:50:23 --> Undefined variable: jumlah
+#0 C:\xampp2\htdocs\resto\app\Views\user\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 10, Array)
+#1 C:\xampp2\htdocs\resto\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\xampp2\htdocs\resto\app\Controllers\User.php(36): view('user/index', Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\User->tambahuser()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2022-03-02 23:50:34 --> Undefined variable: jumlah
+#0 C:\xampp2\htdocs\resto\app\Views\user\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 10, Array)
+#1 C:\xampp2\htdocs\resto\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\xampp2\htdocs\resto\app\Controllers\User.php(36): view('user/index', Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\User->tambahuser()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2022-03-02 23:51:25 --> Undefined variable: user
+#0 C:\xampp2\htdocs\resto\app\Views\user\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 33, Array)
+#1 C:\xampp2\htdocs\resto\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\xampp2\htdocs\resto\app\Controllers\User.php(36): view('user/index', Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\User->tambahuser()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}

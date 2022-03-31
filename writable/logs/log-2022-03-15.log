@@ -1,0 +1,59 @@
+ERROR - 2022-03-15 20:34:57 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-15 20:34:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp2\htdocs\resto\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp2\htdocs\resto\system\Database\BaseBuilder.php(1484): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#2 C:\xampp2\htdocs\resto\app\Models\UserModel.php(56): CodeIgniter\Database\BaseBuilder->countAll()
+#3 C:\xampp2\htdocs\resto\app\Controllers\Home.php(104): App\Models\UserModel->jumlahUser()
+#4 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\Home->home()
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-15 20:34:57 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp2\htdocs\resto\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp2\\htdoc...', 96, Array)
+#1 C:\xampp2\htdocs\resto\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 C:\xampp2\htdocs\resto\system\Debug\Exceptions.php(234): include('C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\resto\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp2\htdocs\resto\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-15 20:41:36 --> Undefined property: stdClass::$status_menu
+#0 C:\xampp2\htdocs\resto\app\Views\user\edituser.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp2\\htdoc...', 35, Array)
+#1 C:\xampp2\htdocs\resto\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('/user/edituser', Array, true)
+#4 C:\xampp2\htdocs\resto\app\Controllers\User.php(64): view('/user/edituser', Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\User->edituser('1')
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2022-03-15 20:48:53 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp2\htdocs\resto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('user/edituser/1')
+#1 C:\xampp2\htdocs\resto\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('user/edituser/1')
+#2 C:\xampp2\htdocs\resto\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2022-03-15 20:55:35 --> Trying to get property 'id_user' of non-object
+#0 C:\xampp2\htdocs\resto\app\Views\user\edituser.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp2\\htdoc...', 17, Array)
+#1 C:\xampp2\htdocs\resto\system\View\View.php(210): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\resto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\resto\system\Common.php(1089): CodeIgniter\View\View->render('/user/edituser', Array, true)
+#4 C:\xampp2\htdocs\resto\app\Controllers\User.php(64): view('/user/edituser', Array)
+#5 C:\xampp2\htdocs\resto\system\CodeIgniter.php(825): App\Controllers\User->edituser()
+#6 C:\xampp2\htdocs\resto\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp2\htdocs\resto\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\resto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\resto\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
